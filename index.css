@@ -1,0 +1,65 @@
+h1 {
+  font-size: 30px;
+  font-style: bold;
+  font-family: sans-serif;
+  letter-spacing: 40px;
+  text-align: center;
+  margin-top: 40px;
+  background: pink;
+  padding: 10px;
+  color: rebeccapurple;
+  word-wrap: break-word;
+}
+
+#zone {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fill, 200px);
+  font-size: 100px;
+  transition: all 1s;
+  justify-content: center;
+  margin-top: 100px;
+}
+#zone:hover {
+  transform: scale(0.9);
+}
+.pink {
+  background: linear-gradient(rgb(224, 205, 205), pink);
+  padding: 30px;
+}
+.yellow {
+  background: linear-gradient(pink, rgb(235, 178, 73));
+  padding: 30px;
+}
+.white {
+  background: linear-gradient(burlywood, rgb(183, 243, 183));
+  padding: 30px;
+}
+.black {
+  background: -webkit-linear-gradient(rgb(253, 253, 145), burlywood);
+  padding: 30px;
+}
+.darkgrey {
+  background: linear-gradient(lightsalmon, beige);
+  padding: 30px;
+}
+.brown {
+  background: linear-gradient(burlywood, rgb(224, 133, 133));
+  padding: 30px;
+}
+.orange {
+  background: linear-gradient(lightsalmon, burlywood);
+  padding: 30px;
+}
+.green {
+  background: linear-gradient(pink, rgb(218, 218, 120));
+  padding: 30px;
+}
+.darkwhite {
+  background: linear-gradient(pink, rgb(235, 178, 73));
+  padding: 30px;
+}
+.darkgraay {
+  background: linear-gradient(burlywood, rgb(224, 133, 133));
+  padding: 30px;
+}
