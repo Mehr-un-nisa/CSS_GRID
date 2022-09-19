@@ -1,3 +1,3 @@
 # CSS_GRID
-<h6>A simple CSS Grid effect using stickers </h6>
+<h6>A simple Grid effect using CSS and HTML </h6>
 
